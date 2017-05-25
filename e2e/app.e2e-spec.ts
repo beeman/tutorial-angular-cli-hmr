@@ -1,10 +1,10 @@
-import { AngularHmrPage } from './app.po';
+import { TutorialAngularCliHmrPage } from './app.po';
 
-describe('angular-hmr App', function() {
-  let page: AngularHmrPage;
+describe('tutorial-angular-cli-hmr App', () => {
+  let page: TutorialAngularCliHmrPage;
 
   beforeEach(() => {
-    page = new AngularHmrPage();
+    page = new TutorialAngularCliHmrPage();
   });
 
   it('should display message saying app works', () => {
